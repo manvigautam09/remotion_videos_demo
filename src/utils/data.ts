@@ -4,9 +4,9 @@ import {CompositionType} from '../types/compositionTypes';
 // TODO: Text can appear for only a particular period of time
 // TODO: Text can be animated
 
-export const compositionFirst: CompositionType = {
+export const compositionSecond: CompositionType = {
 	type: 'video',
-	asset: 'V1.mp4',
+	asset: 'videos/V1.mp4',
 	text: [
 		{
 			title: 'Learn To',
@@ -33,15 +33,15 @@ export const compositionFirst: CompositionType = {
 	],
 };
 
-export const compositionSecond = {
+export const compositionFirst: CompositionType = {
 	type: 'video',
-	asset: 'V2.mp4',
+	asset: 'videos/V2.mp4',
 };
 
 export const compositionThird = {
-	asset: 'V3.mp4',
+	asset: 'videos/V3.mp4',
 };
 
 export const compositionFourth = {
-	asset: 'V4.mp4',
+	asset: 'videos/V4.mp4',
 };
