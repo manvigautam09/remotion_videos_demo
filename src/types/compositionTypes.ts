@@ -1,4 +1,5 @@
 export interface TextType {
+	id: string;
 	title: string;
 	rotate?: number;
 	position?: {x: number; y: number};

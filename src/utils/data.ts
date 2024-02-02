@@ -9,6 +9,7 @@ export const compositionSecond: CompositionType = {
 	asset: 'videos/V1.mp4',
 	text: [
 		{
+			id: '1',
 			title: 'Learn To',
 			rotate: -15,
 			position: {x: 100, y: 300},
@@ -18,6 +19,7 @@ export const compositionSecond: CompositionType = {
 			weight: 500,
 		},
 		{
+			id: '2',
 			title: 'Make Videos',
 			color: 'blue',
 			position: {x: 100, y: 500},
@@ -25,6 +27,7 @@ export const compositionSecond: CompositionType = {
 			family: 'cursive',
 		},
 		{
+			id: '3',
 			title: 'With React',
 			family: 'fantasy',
 			color: 'yellow',
